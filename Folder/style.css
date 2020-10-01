@@ -1,0 +1,35 @@
+.container{
+      display: flex;
+      justify-content:flex-end;
+}
+.lead
+{
+	color:white;
+}
+.btn-primary
+{
+ color:red;
+ background-color:yellow;
+ border-color:blue;
+ text-align:center;
+}
+.jumbotron
+{
+	background-color:black;
+}
+.MYCLASS1
+{
+	background-color:gray;
+}
+.MYCLASS2
+{
+	background-color:gray;
+}
+h1
+{
+	color:white;
+}
+h2
+{
+	color:white;
+}
