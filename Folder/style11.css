@@ -4,20 +4,18 @@
       justify-content: center;
 }
 
-        img {
+img {
             height: 400px;
             width: 400px;
             margin: 10px;
             box-shadow: 10px 10px 5px rgb(115, 236, 190);
             transition: all 3s;
+}
+img:hover {
+            transform: rotate(180deg) scale(1.5, 1.5);
         }
-        
-        flex-container {
-            display: flex;
-            flex-wrap: wrap-reverse;
-            justify-content: center;
-        }
-        
-        img:hover {
-            transform: rotate(-20deg) scale(1.5, 1.5);
-        }
+h1:hover
+{
+	background-color: green;
+	text-align:center;
+}
