@@ -4,23 +4,20 @@
       justify-content: center;
 }
 
-img{
-      width: 450px;
-	  height: 350px;
-	  margin: 5px;
-	  transition: all 0.5s linear;
-	  box-shadow: 10px 10px 10px black;
-}
-
-img:hover{
-      transform: rotate(45deg);
-	  transform: skewY(20);
-}    
-
-h1{  
-     
-       color: red;
-	   width: 400px;
-	   text-align: center;
-	   
-}
+        img {
+            height: 400px;
+            width: 400px;
+            margin: 10px;
+            box-shadow: 10px 10px 5px rgb(115, 236, 190);
+            transition: all 3s;
+        }
+        
+        flex-container {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+        }
+        
+        img:hover {
+            transform: rotate(-20deg) scale(1.5, 1.5);
+        }
